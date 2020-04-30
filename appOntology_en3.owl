@@ -1,0 +1,362 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/AppSchema"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/AppSchema">
+    <Prefix name="" IRI="http://www.semanticweb.org/AppSchema"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#Korean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social_App"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#French"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#publish"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#News_App"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tibetan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewspaperMagazine_App"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Developer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#availableState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLanguage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#﻿versionNumber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Japanese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Language"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#﻿Interaction_Mode"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chinese"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#attentionLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#App"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#﻿ageLimitation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#English"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#developerAddress"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#German"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#updatedTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#﻿functionPoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tool_App"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#develop"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#﻿downloadTimes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#memberOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#App_Store"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Google_Play"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Others"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#developerEmail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Uygur_language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Market"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#version"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#userNumber"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#copyright"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Company"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#News_App"/>
+        <Class IRI="#App"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewspaperMagazine_App"/>
+        <Class IRI="#App"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_App"/>
+        <Class IRI="#App"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tool_App"/>
+        <Class IRI="#App"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Market"/>
+        <NamedIndividual IRI="#App_Store"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Language"/>
+        <NamedIndividual IRI="#Chinese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Language"/>
+        <NamedIndividual IRI="#English"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Language"/>
+        <NamedIndividual IRI="#French"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Language"/>
+        <NamedIndividual IRI="#German"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Market"/>
+        <NamedIndividual IRI="#Google_Play"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Language"/>
+        <NamedIndividual IRI="#Japanese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Language"/>
+        <NamedIndividual IRI="#Korean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Language"/>
+        <NamedIndividual IRI="#Others"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Language"/>
+        <NamedIndividual IRI="#Tibetan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Language"/>
+        <NamedIndividual IRI="#Uygur_language"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#copyright"/>
+        <Class IRI="#App"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#develop"/>
+        <Class IRI="#Developer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLanguage"/>
+        <Class IRI="#App"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#memberOf"/>
+        <Class IRI="#Developer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#publish"/>
+        <Class IRI="#Company"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#source"/>
+        <Class IRI="#App"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#copyright"/>
+        <Class IRI="#Company"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#develop"/>
+        <Class IRI="#App"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLanguage"/>
+        <Class IRI="#Language"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#memberOf"/>
+        <Class IRI="#Company"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#publish"/>
+        <Class IRI="#App"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#source"/>
+        <Class IRI="#Market"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#availableState"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ID"/>
+        <Class IRI="#App"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#availableState"/>
+        <Class IRI="#App"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class IRI="#App"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#developerAddress"/>
+        <Class IRI="#Developer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#developerEmail"/>
+        <Class IRI="#Developer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#updatedTime"/>
+        <Class IRI="#App"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#userNumber"/>
+        <Class IRI="#App"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#﻿ageLimitation"/>
+        <Class IRI="#App"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#﻿downloadTimes"/>
+        <Class IRI="#App"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#﻿versionNumber"/>
+        <Class IRI="#App"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#availableState"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#updatedTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#userNumber"/>
+        <Datatype abbreviatedIRI="xsd:long"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#﻿ageLimitation"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#﻿downloadTimes"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#﻿versionNumber"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ID</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">unique symbol of App</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#availableState</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This feature indicates whether the App is available after the corresponding action such as off the shelf.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#name</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The name of App, but it may not be unique.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#version</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Current Version of Apps</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#﻿Interaction_Mode</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">such as share the locaition, share the document, digital purchase and so on</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#﻿ageLimitation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Content Rating of Apps because some of them are not suitable for children</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#﻿functionPoint</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the functions of app such as Interactive in real time, discover people nearby and so on</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
