@@ -1,4 +1,4 @@
-Time: 6/7/2010 
+Time: 6/7/2020 
 
 Source code and datasets for NLPCC 2020 paper "An Iterative Embedding-based Framework for Detecting Similar Mobile Applications"
 
