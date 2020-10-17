@@ -63,6 +63,7 @@ MAKG-E-Plus is an enhanced one that has integrated important tokens and correspo
 
 # 3. Citation:
 If you use this model or dataset, please cite it as follows:
+
 Normal：
 Weizhuo Li, Buye Zhang, Liang Xu, Meng Wang, Anyuan Luo and Yan Niu. Combining Knowledge Graph Embedding and Network Embedding for Detecting Similar Mobile Applications In: Proceedings of the 9th International Conference on Natural Language Processing and Chinese Computing. 2020, pp. 256-269. [PDF](https://link.springer.com/chapter/10.1007%2F978-3-030-60450-9_21)
 
